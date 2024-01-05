@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AWrqK/z/////AAABmXDIlAH7GkowvTgOi8EhfvM+heKiaahBUZm1Xny39tnrHAsLSJYr/bCzpGDh2WPXXDHWffeB+gp6JldioZtGahUzQfZmG2YHyEzTt8GSOdlp1Bg89c9D2vIU0MJ+561T+pR6X9Sd7SaQcmLZn0ZuHoP3OvXQrOZ6T1iuOGLm7VJbt6WJnB6GKwBYYtBwBy1SxK9qyQ6xAroF0ZERrm0ayDVc5jiybJbRa/rKl4IA6GigfzQOEUSZMcYMsmOjHbNTncA6rTmfdiBjX+QU8oSFvy+0Sy4x4K4MIaQqFuVkEOKhxZAXgve95Hc3hotq8/8JBvMzAq8Xx3J5NOPnyRskxEyLEJgQ0hbcyNxLMs5G0SlJ
-    ufoLicenseKey: QWQzOXFsMy8vLy8vQUFBQUtNaXlEYmhIQTBTbW13b09HQ21lNkJJbnY0aUtnUkJoVmhSSkxUaHNQY3o2cXhjRW1tQ2RqYVpneHY3d0JBK1gveWFMTnp6YTVjU1VITFVod0FOREU0Q0ZWUXRoaHd0ay9UOGxQamlNOXFKRzRzV1N5M3YvdnNsaTQ3MFAybSt4a3dSeUhNS2VVa2dFMWFheGl6aFhqSzUrdWJnTWE3NHU0YXo1eC9pRGVZaVJ2djZrcVc3Zzh1QWVJVFFqdW9ORDZLUHJHSGdPbWpMVHJWM0lucUdqU05CV3NOemtva3o4K3ZCdDZDR09hWXJId0RoV0hXUXFWMzg0cldyM3p0TmYvVjFPM0VjRDlUSVdGVS9zMGp0ZVBqZ204aXZyUDhzVkw2NEZLb0lwb1hLa2lUODlpQWs5RWxlckU0aHRCWXRJbFlEM0FHbXNZMmxWUVplVkh2cnN0M2FEYW9XZ1N1eWd3ZWVUb2dJUUtBUVY=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QWFyeHd1RC8vLy8vQUFBQUtCcXNvN3FScVU2S2pJYys5MEdRbFJCN2hXU0VncWwzdkdpK2FCcnp3MFFpcjViTzRGcjlTVVBHWlNFS1JLbjhIOVZkd2FSOHVQZCt2NWJzcUxJVkxqdDRhc3VRYTYzRnRSZkxMVC9mc0VDeGF5VS9YeG5BbFBaSGtNdTBNOUtxSW5wcU1xVVQyY3pwclFsdWVXWWh4OUFwYnA5OHJLMGpET2VJTkI4TVpWaU93NFRyRkZZNy9lcWpmQ01kb3crNFZrUXNKSGdyMTQ3U0Y2UzhvbCtERDJuZlpzMUpOazNONW5hUjZnWlQyOUJTVmZCbXVCVkVURFhhSjFxc1Uwb0g0ZEk2RFFHc3cvdTN3WEtkNFV0YS9od3BtZm5MbjNWR2xjUm0xUFgwRkVBREpPclppTFdLNHRxcFpkZEw4Mk9NZldYN2lKa0hkckRRcTBtaTJMTHJEcTN6T0xzNzVnMXZrbkFkcFMwRTAwNFY=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -23,23 +23,25 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 10.18.4
-    eulaAcceptedVersions: '{"Values":["10.18"]}'
+    version: 10.19.3
+    eulaAcceptedVersions: '{"Values":["","0.0","9.8","9.7","10.11","10.19"]}'
   database:
     disableModelExtraction: 0
   shaders:
     depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
     outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
-    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
+      type: 0}
   videoBackground:
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded, type: 3}
+    videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded,
+      type: 3}
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoStartTracker: 1
     arcoreRequirement: 1
-    autoImportArcore: 0
+    autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
     mRecordingPath: 

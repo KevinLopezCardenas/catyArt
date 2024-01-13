@@ -9,9 +9,12 @@ public class VolumetricFire : MonoBehaviour
     private Mesh mesh;
     private Material material;
 
-    [SerializeField, Range(1, 20), Tooltip("Controls the number of additional meshes to render in front of and behind the original mesh")]
+    [SerializeField, Range(1, 20),
+     Tooltip("Controls the number of additional meshes to render in front of and behind the original mesh")]
     private int thickness = 1;
-    [SerializeField, Range(0.01f,1f), Tooltip("Controls the total distance between the frontmost mesh and the backmost mesh")]
+
+    [SerializeField, Range(0.01f, 1f),
+     Tooltip("Controls the total distance between the frontmost mesh and the backmost mesh")]
     private float spread = 0.2f;
 
 
@@ -30,7 +33,7 @@ public class VolumetricFire : MonoBehaviour
 
         material = meshRenderer.sharedMaterial;
         mesh = GetComponent<MeshFilter>().sharedMesh;
-        
+
         boundaryCollider = GetComponent<Collider>();
 
         randomStatic = Random.Range(0f, 1f);
@@ -109,7 +112,7 @@ public class VolumetricFire : MonoBehaviour
             newRot = transform.rotation;
             position = transform.position - (transform.forward * item * spacing);
         }
-        
+
 
         Matrix4x4 matrix = Matrix4x4.TRS(position, newRot, transform.localScale);
         Graphics.DrawMesh(mesh, matrix, material, 0, camera, 0, materialPropertyBlock, false, false, false);

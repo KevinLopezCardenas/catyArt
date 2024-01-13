@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Fire Material
-  m_Shader: {fileID: -6465566751694194690, guid: b340d47e712234a44b861b091d938516, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: b340d47e712234a44b861b091d938516,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -109,13 +110,13 @@ Material:
     - Vector1_48C004F6: 3
     - Vector1_575FDCB0: 0.531
     - Vector1_5B35BF2: 2.96
-    - Vector1_5F10D5CF: 0.738
+    - Vector1_5F10D5CF: 0.549
     - Vector1_79CD236A: 3
-    - Vector1_8D7584D8: 0.113
+    - Vector1_8D7584D8: 0.138
     - Vector1_AD7F7343: 0
     - Vector1_BA283AB7: 0.8
     - Vector1_BC31787F: 2.53
-    - Vector1_D8127884: 0.719
+    - Vector1_D8127884: 0.716
     - Vector1_DD6C0587: 1.01
     - _AlphaClip: 0
     - _Blend: 0

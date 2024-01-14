@@ -951,6 +951,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1048741255472036795, guid: db1420936ab743741951fd542283422f,
+        type: 3}
+      propertyPath: alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2686100696906280717, guid: db1420936ab743741951fd542283422f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4633,6 +4638,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 10
   spread: 0.205
+  alpha: 0.138
+  outerFireSize: 0
   billboard: 1
 --- !u!23 &1738392489
 MeshRenderer:
@@ -9869,7 +9876,7 @@ MonoBehaviour:
     remainLighted: 1
     FlameMatch: {fileID: 350777826}
   - ignitionTime: 0.5
-    remainLighted: 0
+    remainLighted: 1
     FlameMatch: {fileID: 1725432571}
 --- !u!4 &2001259488
 Transform:

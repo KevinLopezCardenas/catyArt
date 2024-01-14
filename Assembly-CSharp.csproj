@@ -388,6 +388,9 @@
      <Reference Include="Unity.Analytics.StandardEvents">
      <HintPath>D:\Unity\Projects\Work\catyArt\Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
      </Reference>
+     <Reference Include="DOTween">
+     <HintPath>D:\Unity\Projects\Work\catyArt\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>D:\Unity\Versions\2022.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
      </Reference>
@@ -939,6 +942,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{98951dab-4e2a-c36c-7bf0-37e832a76907}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

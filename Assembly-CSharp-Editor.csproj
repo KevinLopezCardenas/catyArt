@@ -359,6 +359,12 @@
      <Reference Include="Unity.Analytics.StandardEvents">
      <HintPath>D:\Unity\Projects\Work\catyArt\Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
      </Reference>
+     <Reference Include="DOTweenEditor">
+     <HintPath>D:\Unity\Projects\Work\catyArt\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>D:\Unity\Projects\Work\catyArt\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\Unity\Projects\Work\catyArt\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
@@ -919,6 +925,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{98951dab-4e2a-c36c-7bf0-37e832a76907}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{aa0562ee-64b1-b68f-e22a-489ae830b596}</Project>
       <Name>Assembly-CSharp</Name>

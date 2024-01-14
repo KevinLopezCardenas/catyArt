@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireObject: {fileID: 4996687840339243500}
+  volumetricFire: {fileID: 1048741255472036795}
 --- !u!1001 &4067110055453384992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -199,6 +200,11 @@ PrefabInstance:
     - target: {fileID: 3747599475158173097, guid: 6beddb1520106fb47a52eb191f810d1a,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962226015740287643, guid: 6beddb1520106fb47a52eb191f810d1a,
+        type: 3}
+      propertyPath: alpha
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3962226015740287643, guid: 6beddb1520106fb47a52eb191f810d1a,
@@ -306,6 +312,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6beddb1520106fb47a52eb191f810d1a, type: 3}
+--- !u!114 &1048741255472036795 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3962226015740287643, guid: 6beddb1520106fb47a52eb191f810d1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4067110055453384992}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c347c8fd313fc974c97ce62ef3c23d48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4996687840339243500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9018047113859748044, guid: 6beddb1520106fb47a52eb191f810d1a,

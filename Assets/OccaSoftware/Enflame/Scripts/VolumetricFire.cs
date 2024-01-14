@@ -17,6 +17,10 @@ public class VolumetricFire : MonoBehaviour
      Tooltip("Controls the total distance between the frontmost mesh and the backmost mesh")]
     private float spread = 0.2f;
 
+    [SerializeField, Range(0.0f, 1f),
+     Tooltip("Controls the Alpha")]
+    public float alpha = 0.0f;
+
 
     [SerializeField] private bool billboard = true;
     private MaterialPropertyBlock materialPropertyBlock;
@@ -95,6 +99,7 @@ public class VolumetricFire : MonoBehaviour
         materialPropertyBlock.SetFloat("_ITEMNUMBER", item);
         materialPropertyBlock.SetFloat("_INTERNALCOUNT", internalCount);
         materialPropertyBlock.SetFloat("_INITIALPOSITIONINT", randomStatic);
+        materialPropertyBlock.SetFloat("Vector1_8D7584D8", alpha);
     }
 
     void CreateItem(float spacing, float item, Camera camera)
